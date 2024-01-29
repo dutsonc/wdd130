@@ -1,0 +1,59 @@
+h1{
+    color: white;
+}
+h1:hover{
+    color: black;
+}
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fca6c9;
+    font-family: sans-serif;
+}
+.quote1{
+    font-size: .65em;
+    margin: 1% auto;
+    color: white;
+    max-width: 45%;
+    padding-bottom: 1%;
+    line-height: 175%;
+    
+}
+.quoted1{
+    margin: 1% auto;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.portrait-container{
+    max-width: 20%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+img {
+    width: 100%;
+}
+.list-container{
+    max-width: 50%;
+    margin: 0 auto;  
+}
+.item{
+    text-align: left;
+    font-weight: bolder;
+    font-size: .85em;
+}
+.quote2{
+color: white;
+font-size: 1.35em;
+font-family: 'Times New Roman', Times, serif;
+max-width: 27.5%;
+margin: 0 auto;
+padding-bottom: 5%;
+
+}
+.quoted2{
+font-size: .85em;
+max-width: 37.5%;
+margin: 0 auto;
+}
+
