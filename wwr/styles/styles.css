@@ -7,21 +7,21 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
 }
 #background{
     height: 725px;
-    background-color: #019b06;
+    background-color: #439b46;
 }
 header{
     /*Background-image in replacement of background color */
-    background-image: linear-gradient(0,#019b06, #ffffff);
+    background-image: linear-gradient(0,#439b46, #ffffff);
 }
 nav a:hover, .join:hover{
     background-color: #028106 ;
     color: white;
 }
 .msg{
-    background-color: #019b06;
+    background-color: #439b46;
 }
 footer{
-    background-image: linear-gradient(0,#fff,#019b06)
+    background-image: linear-gradient(0,#fff,#439b46)
 }
 
 .logo{
@@ -49,6 +49,9 @@ footer a:hover{
     color: #028106;
     background-color: #e3e3e3;
     text-decoration: none;
+}
+h1{
+    color: #028106;
 }
 h4{
     color: #028106;
