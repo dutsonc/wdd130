@@ -2,6 +2,17 @@
     width: 100px;
     height: 100px;
 }
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
 .headline{
     
+}
+#qg-pos1{
+    max-width: 400px;
+    max-height: 400px;
+}
+.welcome-background{
+    max-width: 100%;
 }
