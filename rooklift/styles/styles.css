@@ -1,19 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+}
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
-/* IMG RULE IS TEMPORARY FOR READ*/
-img {
-    max-width: 50%;
-    max-height: 50%;
+.logo-link{
+    grid-column: 1/2;
+    grid-row: 2/4;
 }
+
 .headline{
-    
+
 }
 #qg-pos1{
     max-width: 400px;
     max-height: 400px;
 }
 .welcome-background{
-    max-width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+   opacity: 0.2;
+   width: 100%;
+   height: 100%;
+}
+.nav-and-intro{
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 1fr 375px 1fr;
+    grid-template-rows: 60px 100px 140px
+    50px;
+    height: 400px;
+}
+nav a, .nav-and-intro {
+    text-align: center;
+}
+.navlinks {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f1f3f2;
+    opacity: .45;
+}
+.welcome{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.welcome2{
+    grid-row: 3/5;
+    grid-column: 2/3;
+}
+.navlinks a:nth-of-type(1){
+    grid-column: 1/2;
+    margin: 20px 20px;
+}
+.navlinks a:nth-of-type(2){
+    grid-column: 2/3;
+    margin: 20px 20px;
+}
+.navlinks a:nth-of-type(3){
+    grid-column: 3/4;
+    margin: 20px 20px;
+}
+main{
+    padding-top: 20px;
+}
+.branch-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 60px 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.img-qg, .img-coaching{
+    width: 215px;
+    height: 215px;
+}
+.intro-paragraph{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.coaching-link{ 
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+}
+.qg-link{
+    grid-column: 3/4;
+    grid-row: 2/3;
+   justify-self: center;
+}
+.get-started{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.head-qg{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    text-align: center;
+}
+.head-coaching {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-align: center;
 }
