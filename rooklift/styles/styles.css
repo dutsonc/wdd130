@@ -20,7 +20,6 @@ h1, h2{
 .logo-link{
     grid-column: 1/2;
     grid-row: 2/4;
-    margin-left: 50px;
 }
 
 .headline{
@@ -86,11 +85,11 @@ main{
 }
 .branch-links{
     display: grid;
-    grid-template-columns: 300px 1fr 1fr 350px;
+    grid-template-columns: 1fr 225px 225px 1fr;
     grid-template-rows: 60px 50px 400px;
-    margin-left: 10%;
+    grid-gap: 40px;
+    margin-left: 50px;
     margin-right: 50px;
-    max-width: 80%;
 }
 .img-qg, .img-coaching{
     width: 215px;
@@ -113,7 +112,6 @@ main{
 .get-started{
     grid-column: 4/5;
     grid-row: 2/4;
-    margin-left: 75px;
 }
 .head-qg{
     grid-row: 1/2;
