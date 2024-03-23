@@ -86,7 +86,7 @@ main{
 .branch-links{
     display: grid;
     grid-template-columns: 1fr 225px 225px 1fr;
-    grid-template-rows: 60px 50px 400px;
+    grid-template-rows: 60px 50px 1fr;
     grid-gap: 40px;
     margin-left: 45px;
     margin-right: 45px;
@@ -98,6 +98,7 @@ main{
 .intro-paragraph{
     grid-column: 1/2;
     grid-row: 2/4;
+
 }
 .coaching-link{ 
     grid-column: 2/3;
