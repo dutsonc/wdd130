@@ -88,8 +88,8 @@ main{
     grid-template-columns: 1fr 225px 225px 1fr;
     grid-template-rows: 60px 50px 400px;
     grid-gap: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 .img-qg, .img-coaching{
     width: 215px;
@@ -103,11 +103,13 @@ main{
     grid-column: 2/3;
     grid-row: 3/4;
     justify-self: center;
+    margin-right: 5px;
 }
 .qg-link{
     grid-column: 3/4;
     grid-row: 3/4;
    justify-self: center;
+   margin-left: 5px;
 }
 .get-started{
     grid-column: 4/5;
