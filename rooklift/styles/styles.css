@@ -147,11 +147,8 @@ main{
     justify-self: center;
     grid-column: 3/4;
 }
-
 .headshot{
     opacity: 1;
-    width: 100%;
-    display: block;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -159,11 +156,12 @@ main{
 .middle{
     transition: .5s ease;
     opacity: 0;
-    left: 87%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    transform: translate(0%, -75%);
+    -ms-transform: translate(0%, -75%);
+    -moz-transform: translate(0%, -75%);
     text-align: center;
+    left: 50%;
+    right: 50%;
 }
 .headshot-container:hover .headshot{
     opacity: 0.3;
