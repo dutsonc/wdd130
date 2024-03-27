@@ -141,10 +141,40 @@ main{
     color: #3E2F5B;
 }
 /*page 2 (Coaching) css*/
-.headshot{
+
+.headshot-container{
     height: 252px;
     justify-self: center;
     grid-column: 3/4;
+}
+.headshot{
+    opacity: 1;
+    width: 100%;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    left: 87%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.headshot-container:hover .headshot{
+    opacity: 0.3;
+}
+.headshot-container:hover .middle{
+opacity: 1;
+}
+.text{
+    background-color: #BA5C12;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
 }
 .progress-img{
     width: 268px;
