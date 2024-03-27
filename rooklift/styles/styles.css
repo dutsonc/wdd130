@@ -141,12 +141,13 @@ main{
     color: #3E2F5B;
 }
 /*page 2 (Coaching) css*/
-
+/* Container for component*/ 
 .headshot-container{
     height: 252px;
     justify-self: center;
     grid-column: 3/4;
 }
+
 .headshot{
     opacity: 1;
     width: 100%;
