@@ -141,7 +141,7 @@ main{
     color: #3E2F5B;
 }
 /*page 2 (Coaching) css*/
-/* Container for component*/ 
+/* headshot-container is Container for component*/ 
 .headshot-container{
     height: 252px;
     justify-self: center;
@@ -239,8 +239,52 @@ opacity: 1;
     grid-column: 3/4;
     margin: 20px 20px;
 }
+ /*CSS for Page 3 (Queen's Gambit*/
+.qg-main{
+    text-align: center;
+}
+.navlinks-qg {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #ffffffb1;
+    opacity: .75;
+    color: #1d162c;
 
-
+}
+.navlinks-qg a:nth-of-type(1){
+    grid-column: 1/2;
+    margin: 20px 20px;
+}
+.navlinks-qg a:nth-of-type(2){
+    grid-column: 2/3;
+    margin: 20px 20px;
+}
+.navlinks-qg a:nth-of-type(3){
+    grid-column: 3/4;
+    margin: 20px 20px;
+    color: black;
+}
+.lesson-box{
+    display: grid;
+    grid-template-columns: 8fr 1fr 6fr;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.lesson-box p {
+    grid-column: 1/2;
+    text-align: left;
+}
+.lesson-box #qg-pos1{
+    width: 100%;
+    grid-column: 3/4;
+    margin-top: 24px;
+    max-height: 350px;
+    max-width: 350px;
+}
 /*media for small screens*/
 @media screen and (max-width: 900px) {
     .nav-and-intro{
@@ -284,6 +328,9 @@ opacity: 1;
     }
     .coach-container{
         display: block;
+    }
+    .lesson-box{
+        display: block
     }
 }
             
