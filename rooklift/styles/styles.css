@@ -148,33 +148,8 @@ main{
     grid-column: 3/4;
 }
 .headshot{
-    opacity: 1;
     height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
     max-height: 252px;
-}
-.middle{
-    transition: .5s ease;
-    opacity: 0;
-    transform: translate(0%, -75%);
-    -ms-transform: translate(0%, -75%);
-    -moz-transform: translate(0%, -75%);
-    text-align: center;
-    left: 50%;
-    right: 50%;
-}
-.headshot-container:hover .headshot{
-    opacity: 0.3;
-}
-.headshot-container:hover .middle{
-opacity: 1;
-}
-.text{
-    background-color: #BA5C12;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
 }
 .progress-img{
     width: 268px;
@@ -306,9 +281,6 @@ opacity: 1;
         display: block;
         margin-top: 100px;
     }
-    .intro-paragraph{
-    
-    }
     .welcome2{
         display: none;
     }
@@ -316,12 +288,14 @@ opacity: 1;
         display: block;
     }
     .coaching-link{
-        margin-left: 25%;
-        margin-right: 25%;
+      display: block;
+      width: 100%;
+      text-align: center;
     }
     .qg-link{
-        margin-left: 25%;
-        margin-right: 25%;
+     display: block;
+     width: 100%;
+     text-align: center;
     }
     .get-started{
         margin-left: 0px;
