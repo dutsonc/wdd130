@@ -219,7 +219,7 @@ main{
     grid-column: 4/5;
     grid-row: 1/2;
     margin: 20px 20px;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
  /*CSS for Page 3 (Queen's Gambit*/
 .qg-main{
@@ -256,7 +256,7 @@ main{
     grid-row: 1/2;
     margin: 20px 20px;
     color: black;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
 .lesson-box{
     display: grid;
