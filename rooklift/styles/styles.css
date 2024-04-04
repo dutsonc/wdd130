@@ -274,6 +274,7 @@ main{
     margin-top: 24px;
     max-height: 350px;
     max-width: 350px;
+    justify-self: center;
 }
 .goldpawn{
     max-width: 100%;
