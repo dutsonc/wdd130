@@ -274,6 +274,9 @@ main{
     max-height: 350px;
     max-width: 350px;
 }
+.goldpawn{
+    max-width: 100%;
+}
 /*media for small screens*/
 @media screen and (max-width: 900px) {
     .nav-and-intro{
