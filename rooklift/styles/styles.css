@@ -189,59 +189,73 @@ main{
     font-size: .75em;
     margin-top: 50px;
 }
-.navlinks-coaching {
-    grid-column: 1/4;
+.coach-logo .logo{
+    height: 60px;
+    width: 60px;
     grid-row: 1/2;
+    margin-top: 5px;
+}
+.navlinks-coaching {
     z-index: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #ffffffb1;
     opacity: .75;
     color: #1d162c;
-
 }
 .navlinks-coaching a:nth-of-type(1){
-    grid-column: 1/2;
+    grid-column: 2/3;
+    grid-row: 1/2;
     margin: 20px 20px;
 }
 .navlinks-coaching a:nth-of-type(2){
-    grid-column: 2/3;
+    grid-column: 3/4;
+    grid-row: 1/2;
     margin: 20px 20px;
     color: black;
 }
 .navlinks-coaching a:nth-of-type(3){
-    grid-column: 3/4;
+    grid-column: 4/5;
+    grid-row: 1/2;
     margin: 20px 20px;
 }
  /*CSS for Page 3 (Queen's Gambit*/
 .qg-main{
     text-align: center;
 }
+
 .navlinks-qg {
-    grid-column: 1/4;
-    grid-row: 1/2;
     z-index: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #ffffffb1;
     opacity: .75;
     color: #1d162c;
-
+}
+.qg-logo .logo{
+    height: 60px;
+    width: 60px;
+    grid-row: 1/2;
+    margin-top: 5px;
 }
 .navlinks-qg a:nth-of-type(1){
-    grid-column: 1/2;
+    grid-column: 2/3;
+    grid-row: 1/2;
     margin: 20px 20px;
 }
 .navlinks-qg a:nth-of-type(2){
-    grid-column: 2/3;
+    grid-column: 3/4;
+    grid-row: 1/2;
     margin: 20px 20px;
 }
 .navlinks-qg a:nth-of-type(3){
-    grid-column: 3/4;
+    grid-column: 4/5;
+    grid-row: 1/2;
     margin: 20px 20px;
     color: black;
+    text-wrap: nowrap;
 }
 .lesson-box{
     display: grid;
