@@ -8,6 +8,7 @@ def main():
     print(make_sentence(3,"past"))
     print(make_sentence(2,"present"))
     print(make_sentence(4,"future"))
+    print("See also:")
     print(make_sentence(randomquantity,randomtense))
 def make_sentence(quantity, tense):
     """Build and return a sentence with three words:
