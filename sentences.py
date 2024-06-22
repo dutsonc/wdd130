@@ -115,4 +115,7 @@ def generate_quantity():
     quantities = [1, 3]
     quantity= random.choice(quantities)
     return quantity
+def 
+def
+
 main()
