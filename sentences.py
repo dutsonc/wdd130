@@ -19,7 +19,7 @@ def make_sentence(quantity, tense):
     """
     quantity=quantity
     tense=tense
-    sentence = str.capitalize(f"{get_determiner(quantity)} {get_noun(quantity)} {get_verb(quantity, tense)} {get_prepositional_phrase(quantity)}.")
+    sentence = str.capitalize(f"{get_determiner(quantity)} {get_adjective()} {get_noun(quantity)} {get_verb(quantity, tense)} {get_prepositional_phrase(quantity)} {get_prepositional_phrase(quantity)}.")
     capitalized_sentence=str.capitalize(sentence)
     return sentence
 def get_determiner(quantity):
@@ -146,7 +146,10 @@ def get_prepositional_phrase(quantity):
             be single or pluaral.
     Return: a prepositional phrase.
     """
-    
     prepositionalPhrase= (f"{get_preposition()} {get_determiner(quantity)} {get_noun(quantity)}")
     return prepositionalPhrase
+def get_adjective():
+    adjectives= ["quick", "slow", "sloppy", "difficult", "joyous", "charged", "energized", "plotting", "tall"]
+    adjective=random.choice(adjectives)
+    return adjective
 main()
