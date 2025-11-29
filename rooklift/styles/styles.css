@@ -294,6 +294,16 @@ main{
 .goldpawn{
     max-width: 100%;
 }
+
+.dailypuzzle{
+    margin-top: 25px;
+    justify-self: center;
+    max-width: 400px;
+}
+.dailypuzzle iframe{
+    justify-self: center;
+}
+        
 /*media for small screens*/
 @media screen and (max-width: 900px) {
     .nav-and-intro{
@@ -339,6 +349,4 @@ main{
     }
     .lesson-box{
         display: block
-    }
-}
-            
+    }}
