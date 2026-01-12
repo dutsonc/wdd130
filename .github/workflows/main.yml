@@ -16,7 +16,7 @@ jobs:
       run: |
         # The environment variable MY_API_KEY is set using the GitHub secret
         echo "Building with API Key..."
-        /index.html
+        wdd130/index.html
       env:
         MY_API_KEY: ${{ secrets.LICHESS_API_KEY }} # Reference the secret here
         # Note: Do not echo the secret value directly as it can be exposed in logs
