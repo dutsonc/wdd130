@@ -1,0 +1,17 @@
+name: Use My Secret
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run script with secret
+        env:
+          # This maps your GitHub secret to an environment variable
+          API_KEY: ${{ secrets.MY_API_KEY }}
+        run: |
+          echo "The secret is masked in logs, but usable in code."
+          python my_script.py 
