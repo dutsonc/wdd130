@@ -14,4 +14,4 @@ jobs:
           API_KEY: ${{ secrets.LICHESS_API_KEY }}
         run: |
           echo "The secret is masked in logs, but usable in code."
-          python my_script.py 
+          node rooklift/scripts/scripts.js
